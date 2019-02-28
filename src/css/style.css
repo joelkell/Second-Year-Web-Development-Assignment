@@ -1,0 +1,284 @@
+#canvas {
+	position: absolute;
+	display: flex;
+	height: 100%;
+	width: 100%;
+	flex-direction: row;
+	background: cyan;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#all {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+	flex: 1;
+	background-color: white;
+}
+
+#header {
+	overflow: auto;
+	height: 10%;
+	background-color: rgba(129, 140, 152, 1);
+	margin-bottom: 2%;
+}
+header {
+	text-align: center;
+	color: black;
+	line-height: 10vh;
+}
+
+header h2 {
+	color: rgba(7, 17, 27, 1);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 4vh;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.main {
+	overflow: auto;
+	width: 80%;
+	background-color: rgba(129, 140, 152, 0.5);
+	border: 1px solid black;
+	margin-left: 10%;
+	margin-right: 10%;
+	flex:1;
+}
+
+.main h2 {
+	color: rgba(7, 17, 27, 1);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 4vh;
+	text-align: center;
+	margin: 0;
+	border: 0;
+	padding: 1vh;
+}
+
+.main .links {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2vh;
+	color: black;
+	text-align: center;
+	margin: 0;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	padding: 0.5vh 1vw;
+	text-decoration: none;
+	border: 1px solid black;
+}
+
+.main .links:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.main #nav nav{
+	margin: 0;
+	border: 0;
+	border-bottom: 1px solid black;
+	background-color: rgba(129, 140, 152, 0.5);
+	max-width: 100%;
+	margin-bottom: 2vh;
+}
+
+.main #nav nav ul{
+	background-color: rgba(129, 140, 152, 0.5);
+	padding: 0;
+	width: 100%;
+	max-width: 100%;
+	position: center;
+	height: 4vh;
+	text-align: left;
+	list-style: none;
+	margin: 0;
+	padding-left: 0vw;
+	padding-bottom: 2vh;
+	overflow: hidden;
+}
+.main #nav nav ul li {
+	display: inline-block;
+}
+
+.main #nav nav ul li a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2vh;
+	color: black;
+	text-align: center;
+	padding: 1em;
+	text-decoration: none;
+}
+.main #nav nav ul li a:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.main p {
+	color: rgba(7, 17, 27, 1);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.5vh;
+	text-align: center;
+	margin: 0;
+	border: 0;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+#loginP{
+	color: rgba(7, 17, 27, 1);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 3vh;
+	text-decoration: underline;
+	text-align: center;
+	margin: 0;
+	border: 0;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+.main .form {
+	border: 1px black solid;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 1vh;
+	text-align: center;
+	padding-top: 1vh;
+	padding-bottom: 0;
+	padding-right: 2vw;
+}
+
+.main .form form {
+	width: 100%;
+	margin: 0 auto;
+	overflow: auto;
+	
+}
+
+.main .form form p{
+	float: left;	
+}
+
+.main .form form .textinput{
+	float: right;
+	width: 60%;
+}
+
+
+.button {
+	padding: 0.5vh;
+	margin: 1vh;
+	width: 100%;
+	max-width:100%
+}
+
+#results {
+	width: 100%;
+	background-color: rgba(129, 140, 152, 0.4);
+	margin: 0 auto;
+	max-width: 100%;
+	align-items: center;
+}
+
+#results h3 {
+	color: rgba(7, 17, 27, 1);
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.5vh;
+	text-align: left;
+	margin: 0;
+	border: 0;
+	padding: 1vh;
+	padding-left: 2vw;
+	padding-bottom: 0.5vh;
+}
+
+#results p {
+	color: rgba(7, 17, 27, 1);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.8vh;
+	text-align: left;
+	margin: 0;
+	border: 0;
+	padding-top: 0;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	padding-bottom: 1vh;
+}
+
+#twoFlex {
+	display: flex;
+	width: 100%;
+	background-color: rgba(129, 140, 152, 0.8);
+	margin: 0 auto;
+	max-width: 100%;
+	height: 10vh;
+    flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.button2 {
+	padding: 0.5vh;
+	margin: 1vh;
+}
+
+#search {
+	width: 48%;
+}
+
+#search form {
+	float: right;
+	padding: 1vw;
+	margin: 1vw;
+}
+
+#drop {
+	width: 48%;
+}
+
+#drop form {
+	float: left;
+	padding: 1vw;
+	margin: 1vw;
+}
+
+#link {
+	text-align: center;
+	padding: 2vh 1vw;
+}
+
+#footer {
+	overflow: auto;
+	height: 8%;
+	background-color: rgba(129, 140, 152, 1);
+	margin-top: 2%;
+}
+
+footer {
+	text-align: center;
+	color: black;
+	line-height: 8vh;
+}
+footer p {
+	font-size: 2vh;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
